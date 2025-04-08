@@ -8,7 +8,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_core.messages import HumanMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash-lite-preview-02-05", api_key="AIzaSyAl2iTnrARBupZygxIrVFcQBgB3h6cZDJI")
+llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash-lite-preview-02-05", api_key="YOUR_KEY")
 embedder = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 vector_db_path = "faiss_index"
 
