@@ -3,7 +3,7 @@ import streamlit as st
 from typing import List, Dict, Any
 import json
 import tempfile
-import langchain_google_genai as genai
+import google.generativeai as genai
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_community.document_loaders import PyPDFLoader, TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
