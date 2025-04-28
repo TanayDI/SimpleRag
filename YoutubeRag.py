@@ -9,7 +9,8 @@ from langchain_core.messages import HumanMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 # Initialize the Google Gemini API
-llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash-lite-preview-02-05", api_key="AIzaSyAl2iTnrARBupZygxIrVFcQBgB3h6cZDJI")
+API_KEY = os.environ.get("GOOGLE_API_KEY", "")
+llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash-lite-preview-02-05", api_key=API_KEY)
 
 # FAISS Index Path
 vector_db_path = "faiss_index"
