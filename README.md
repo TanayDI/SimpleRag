@@ -34,7 +34,3 @@ streamlit run PDFRag.py
 streamlit run GardenRamsey.py
 streamlit run YoutubeRag.py
 ```
-
----
-
-#### Give this project a star if you like it :D
