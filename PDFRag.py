@@ -108,9 +108,9 @@ if st.button("Send") and query:
         # Display chat history
         st.markdown("### 📝 Chat History")
         for message in st.session_state.chat_history.split("\n"):
-            if message.startswith("**👤 You:**"):
+            if message.startswith("👤 You:"):
                 st.markdown(f'<p style="color:blue; font-weight:bold;">{message}</p>', unsafe_allow_html=True)
-            elif message.startswith("**🤖 AI:**"):
+            elif message.startswith("🤖 AI:"):
                 st.markdown(f'<p style="color:green; font-weight:bold;">{message}</p>', unsafe_allow_html=True)
         
         # Display citations

@@ -7,6 +7,7 @@ from youtube_transcript_api import YouTubeTranscriptApi
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_core.messages import HumanMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
+from torch import device
 
 # Initialize the Google Gemini API
 API_KEY = os.environ.get("GOOGLE_API_KEY", "")
