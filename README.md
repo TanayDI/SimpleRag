@@ -22,7 +22,7 @@ As the chatbot quetions related to a youtube video you are watching. It answers 
   ```
 3. Install dependencies
   ```bash
-  pip install requirements.txt
+  pip install -r requirements.txt
   ```
 4. Update the existing or make a new ``.env`` file with your gen-ai api keys. You can get the keys from https://aistudio.google.com/apikey
   ```.env
